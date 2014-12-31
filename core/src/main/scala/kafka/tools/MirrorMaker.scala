@@ -35,6 +35,7 @@ object MirrorMaker extends Logging {
   private var consumerThreads: Seq[MirrorMakerThread] = null
   private var producerThreads: ListBuffer[ProducerThread] = null
 
+/*test*/
   def main(args: Array[String]) {
     
     info ("Starting mirror maker")
